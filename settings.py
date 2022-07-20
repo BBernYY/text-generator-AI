@@ -3,7 +3,7 @@ model = {
 }
 generate = {
     "text_inputs": open("input.txt", "r").read(),
-    "max_length": 2000,
+    "max_length": 250,
     "do_sample": True,
     "temperature": 0.9
 }
